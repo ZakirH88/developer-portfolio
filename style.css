@@ -21,7 +21,7 @@ p{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -48,3 +48,51 @@ section{
     background-repeat: no-repeat;
 }
 
+/* 2nd Section Start*/
+
+.middle-bannar{
+    background-image: url(images/middle-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* -----------3rd Section Start----------*/
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    /*border-left: 5px solid red; */
+    box-shadow: 10px 10px 10px grey;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#digital-brand{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+/* Footer section start-*/
+footer{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    height: 50px;
+    
+}
